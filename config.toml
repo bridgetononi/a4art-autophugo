@@ -34,8 +34,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [params.footer.paragraph]
     headline = "A4Art - l'arte di photographia"
-    text = "A4Art è un sito creato da Rebecca Bridgwater e Jan Tononi con l'obbietivo di pubblicare photo dei suoi membri.
-    I membri sono prevalmente studenti dalle Accademia delle belle Arte di Brera, Bergamo e Brescia. "
+    text = "A4Art è un sito creato da Rebecca Bridgwater e Jan Tononi con l'obbietivo di pubblicare photo dei suoi membri. I membri sono prevalmente studenti dalle Accademia delle belle Arte di Brera, Bergamo e Brescia. "
 
     [params.footer.social]
     headline = "Follow A4Art"
