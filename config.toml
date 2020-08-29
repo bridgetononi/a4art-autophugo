@@ -1,5 +1,5 @@
 # Settings
-baseurl = "http://example.org/"
+baseurl = "http://a4art.bridgwaters.net"
 languageCode = "en-us"
 title = "A4Art"
 theme = "autophugo"
