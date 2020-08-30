@@ -105,7 +105,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # Copyright
     [params.footer.copyright]
-    name = "Your name"
+    name = "Rebecca Bridgwater/Jan Tononi"
 
     # Additional Members Menu imported after this
     #
