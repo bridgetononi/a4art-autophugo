@@ -30,11 +30,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     url = "#footer"
     icon = "fa-info-circle"
 
-    [[params.header.links]]
-    name = "Members"
-    url = "#footer2"
-    icon = "fa-info-circle"
-
     # Footer panel
 
     [params.footer.paragraph]
@@ -107,31 +102,39 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [params.footer.copyright]
     name = "Your name"
 
-    # Additional Members Menu imported after this
-    #
-[params.footer2.social.rebeccabridgwater]
-headline = "rebeccabridgwater"
+    # Additional Members Menu
 
-[[params.footer2.social.rebeccabridgwater.links]]
-label = "Instagram"
-url = "https://www.instagram.com/beckybriph/"
-icon = "fa-instagram"
+    [[params.header.links]]
+    name = "Members"
+    url = "#footer2"
+    icon = "fa-info-circle"
 
-[[params.footer2.social.rebeccabridgwater.links]]
-label = "Facebook"
-url = "https://it-it.facebook.com/becky.bridgwater"
-icon = "fa-facebook"
+    [params.footer2.paragraph]
+    headline = "Magnaaaaa feugiat sed adipiscing"
+    text = "Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum."
 
-[params.footer2.social.jantononi]
-headline = "jantononi"
+    [[params.footer2.social.rb.links]]
+    label = "Instagram"
+    url = "#Reby"
+    icon = "fa-instagram"
 
-[[params.footer2.social.jantononi.links]]
-label = "Instagram"
-url = "https://www.instagram.com/jantononi/"
-icon = "fa-instagram"
+    [[params.footer2.social.rb.links]]
+    label = "Facebook"
+    url = "#Reby"
+    icon = "fa-facebook"
 
-[[params.footer2.social.jantononi.links]]
-label = "Facebook"
-url = "https://it-it.facebook.com/jan.tononi"
-icon = "fa-facebook"
+    [params.footer2.social.rb]
+    headline = "Rebecca Bridgwater"
 
+    [[params.footer2.social.jt.links]]
+    label = "Instagram"
+    url = "#Jan"
+    icon = "fa-instagram"
+
+    [[params.footer2.social.jt.links]]
+    label = "Facebook"
+    url = "#Jan"
+    icon = "fa-facebook"
+
+    [params.footer2.social.jt]
+    headline = "Jan Tononi"

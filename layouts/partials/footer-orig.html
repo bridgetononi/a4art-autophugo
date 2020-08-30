@@ -42,28 +42,30 @@
             {{ end }}
         </div>
     </footer>
-<footer id="footer2" class="panel">
-<div class="inner split">
-        <div>
-            <section>
-                <h6>{{ with .Site.Params.footer2.social.rebeccabridgwater.headline }}{{ . | markdownify }}{{ end }}</h6>
-                <ul class="icons">
-                  <p><a href="/rebeccabridgwater"><img src="/rebeccabridgwater.jpg" width=150 height=150></a></p>
-                {{ range .Site.Params.footer2.social.rebeccabridgwater.links }}
-                    <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .label }}</span></a></li>
-                {{ end }}
-            </section>
-        </div>
+    <footer id="footer2" class="panel">
+        <div class="inner split">
+            <div>
+                <section>
+                    <h6>{{ with .Site.Params.footer2.social.rebeccabridgwater.headline }}{{ . | markdownify }}{{ end }}</h6>
+                    <ul class="icons">
+                      <p><a href="/rebeccabridgwater"><img src="/rebeccabridgwater.jpg" width=150 height=150></a></p>
+                    {{ range .Site.Params.footer2.social.rebeccabridgwater.links }}
+                        <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .label }}</span></a></li>
+                    {{ end }}
+                </section>
+            </div>
+            <div>
+                <section>
+                    <h6>{{ with .Site.Params.footer2.social.jantononi.headline }}{{ . | markdownify }}{{ end }}</h6>
+                    <ul class="icons">
+                      <p><a href="/jantononi"><img src="/jantononi.jpg" width=150 height=150></a>
+                      </p>
+                    {{ range .Site.Params.footer2.social.jantononi.links }}
+                        <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .label }}</span></a></li>
+                    {{ end }}
+                    </ul>
+                </section>
+            </div>
 
-        <div>
-            <section>
-                <h6>{{ with .Site.Params.footer2.social.jantononi.headline }}{{ . | markdownify }}{{ end }}</h6>
-                <ul class="icons">
-                  <p><a href="/jantononi"><img src="/jantononi.jpg" width=150 height=150></a></p>
-                {{ range .Site.Params.footer2.social.jantononi.links }}
-                    <li><a href="{{ .url }}" class="icon {{ .icon }}"><span class="label">{{ .label }}</span></a></li>
-                {{ end }}
-            </section>
         </div>
-</div>
-</footer>
+    </footer>
